@@ -12,6 +12,8 @@ fun main() {
     students("Alex","Male",34)
     students("Mutisya","Male",28)
 
+    employee("John", 56000,true)
+
 }
 
 // User-Defined functions
@@ -28,4 +30,8 @@ fun add(){
 //Parameters/variables and Arguments/value
 fun students(name:String,gender:String,age:Int){
     println("$name is a $gender.$name is $age years old")
+}
+
+fun employee(Name:String,salary:Int,Disability:Boolean){
+    println("$Name receives a salary of $salary. Disabled $Disability")
 }
